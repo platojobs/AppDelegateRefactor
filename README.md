@@ -72,8 +72,9 @@ func execute (){
 //Register remote notifications here
 }
 }
-
 ```
+
+-----
 
 然后我们定义`StartupCommandsBuilder`来封装如何创建命令的详细信息。APPdelegate调用这个builder去初始化命令并执行这些命令:
 ```swift
